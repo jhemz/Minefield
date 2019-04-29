@@ -1,0 +1,12 @@
+C:\Users\James\Documents\Minefield\Minefield\Minefield\bin\Debug\netstandard2.0\Minefield.deps.json
+C:\Users\James\Documents\Minefield\Minefield\Minefield\bin\Debug\netstandard2.0\Minefield.dll
+C:\Users\James\Documents\Minefield\Minefield\Minefield\bin\Debug\netstandard2.0\Minefield.pdb
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.csprojAssemblyReference.cache
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.AssemblyInfoInputs.cache
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.AssemblyInfo.cs
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.dll
+C:\Users\James\Documents\Minefield\Minefield\Minefield\obj\Debug\netstandard2.0\Minefield.pdb

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Minefield"
+             x:Class="Minefield.MainPage">
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <StackLayout Orientation="Vertical" IsVisible="{Binding NoGame}" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="New Easy Game" Command="{Binding NewEasyGameCommand}" Margin="10"/>
+            <Button Text="New Medium Game" Command="{Binding NewMediumGameCommand}" Margin="10"/>
+            <Button Text="New Hard Game" Command="{Binding NewHardGameCommand}" Margin="10"/>
+        </StackLayout>
+        
+        <!--This is the board for the game, an 8x8 grid-->
+
+        <StackLayout Orientation="Horizontal" IsVisible="{Binding GameExists}" HorizontalOptions="Center">
+            <Label FontSize="Large" Text="{Binding Score,
+                      StringFormat='Score: {0:F0}'}" />
+            <Label FontSize="Large" Margin="20, 0, 0, 0" Text="{Binding Lives,
+                      StringFormat='Lives: {0:F0}'}" />
+        </StackLayout>
+        
+        <Grid HeightRequest="400" WidthRequest="400" ColumnSpacing="0" RowSpacing="0" x:Name="Board"  IsVisible="{Binding GameExists}" BackgroundColor="#B1B1B1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Black"/>
+            <Grid Grid.Row="0" Grid.Column="2" BackgroundColor="Black"/>
+            <Grid Grid.Row="0" Grid.Column="4" BackgroundColor="Black"/>
+            <Grid Grid.Row="0" Grid.Column="6" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Black"/>
+            <Grid Grid.Row="1" Grid.Column="3" BackgroundColor="Black"/>
+            <Grid Grid.Row="1" Grid.Column="5" BackgroundColor="Black"/>
+            <Grid Grid.Row="1" Grid.Column="7" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="2" Grid.Column="0" BackgroundColor="Black"/>
+            <Grid Grid.Row="2" Grid.Column="2" BackgroundColor="Black"/>
+            <Grid Grid.Row="2" Grid.Column="4" BackgroundColor="Black"/>
+            <Grid Grid.Row="2" Grid.Column="6" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="3" Grid.Column="1" BackgroundColor="Black"/>
+            <Grid Grid.Row="3" Grid.Column="3" BackgroundColor="Black"/>
+            <Grid Grid.Row="3" Grid.Column="5" BackgroundColor="Black"/>
+            <Grid Grid.Row="3" Grid.Column="7" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="4" Grid.Column="0" BackgroundColor="Black"/>
+            <Grid Grid.Row="4" Grid.Column="2" BackgroundColor="Black"/>
+            <Grid Grid.Row="4" Grid.Column="4" BackgroundColor="Black"/>
+            <Grid Grid.Row="4" Grid.Column="6" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="5" Grid.Column="1" BackgroundColor="Black"/>
+            <Grid Grid.Row="5" Grid.Column="3" BackgroundColor="Black"/>
+            <Grid Grid.Row="5" Grid.Column="5" BackgroundColor="Black"/>
+            <Grid Grid.Row="5" Grid.Column="7" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="6" Grid.Column="0" BackgroundColor="Black"/>
+            <Grid Grid.Row="6" Grid.Column="2" BackgroundColor="Black"/>
+            <Grid Grid.Row="6" Grid.Column="4" BackgroundColor="Black"/>
+            <Grid Grid.Row="6" Grid.Column="6" BackgroundColor="Black"/>
+
+            <Grid Grid.Row="7" Grid.Column="1" BackgroundColor="Black"/>
+            <Grid Grid.Row="7" Grid.Column="3" BackgroundColor="Black"/>
+            <Grid Grid.Row="7" Grid.Column="5" BackgroundColor="Black"/>
+            <Grid Grid.Row="7" Grid.Column="7" BackgroundColor="Black"/>
+
+            <!--player-->
+            <Image Source="soldier.png" x:Name="Player" Grid.Column="{Binding Player_X}" Grid.Row="{Binding Player_Y}" WidthRequest="50" HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+
+            <!--finish marker-->
+            <Image Source="finish.png" x:Name="finish" Grid.Column="7" Grid.Row="7" WidthRequest="50" HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+
+            <!--Explosion marker-->
+            <Image Source="explosion.png" x:Name="Explosion" IsVisible="{Binding ExplosionVisible}"  Grid.Column="{Binding Player_X}" Grid.Row="{Binding Player_Y}" 
+                   WidthRequest="50" HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        </Grid>
+
+        <!--container for the games controls, the d pad-->
+        <Grid WidthRequest="200" IsVisible="{Binding GameExists}" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+            
+            <!--up button-->
+            <Button Text="Up" Command="{Binding UpCommand}" HorizontalOptions="Center"/>
+
+            <!--left button-->
+            <Button Grid.Row="1" Text="Left" Command="{Binding LeftCommand}" HorizontalOptions="StartAndExpand"/>
+
+            <!--right button-->
+            <Button Grid.Row="1" Text="Right" Command="{Binding RightCommand}" HorizontalOptions="EndAndExpand"/>
+
+            <!--down button-->
+            <Button Grid.Row="2" Text="Down" Command="{Binding DownCommand}" HorizontalOptions="Center"/>
+
+        </Grid>
+
+
+    </StackLayout>
+
+
+
+</ContentPage>
