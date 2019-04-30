@@ -1,0 +1,2 @@
+C:\Users\j.marshall\Documents\Minefield\Minefield\Minefield.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\j.marshall\Documents\Minefield\Minefield\Minefield.Android\obj\Debug\81\Minefield.Android.csprojAssemblyReference.cache

@@ -23,7 +23,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -183,7 +183,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -343,7 +343,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -503,7 +503,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -691,7 +691,7 @@
       ]
     },
     "Xamarin.Essentials/1.0.1": {
-      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+      "sha512": "cGSje2LlYsCdscPt2zAG4e0Zzr08zc21Cj4DAMub3GR37lc/vzAVwGxco8NeCSzcZs147wYbXkFCXwOr4LUO9A==",
       "type": "package",
       "path": "xamarin.essentials/1.0.1",
       "files": [
@@ -724,10 +724,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+    "Xamarin.Forms/3.6.0.344457": {
+      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.264807",
+      "path": "xamarin.forms/3.6.0.344457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -885,7 +885,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.264807.nupkg.sha512",
+        "xamarin.forms.3.6.0.344457.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -899,43 +899,41 @@
     "Xamarin.iOS,Version=v1.0": [
       "Minefield >= 1.0.0",
       "Xamarin.Essentials >= 1.0.1",
-      "Xamarin.Forms >= 3.6.0.264807"
+      "Xamarin.Forms >= 3.6.0.344457"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\James\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\j.marshall\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.iOS\\Minefield.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.iOS\\Minefield.iOS.csproj",
       "projectName": "Minefield.iOS",
-      "projectPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.iOS\\Minefield.iOS.csproj",
-      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.iOS\\obj\\",
+      "projectPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.iOS\\Minefield.iOS.csproj",
+      "packagesPath": "C:\\Users\\j.marshall\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\j.marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj": {
-              "projectPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj"
+            "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj": {
+              "projectPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj"
             }
           }
         }
@@ -950,7 +948,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.264807, )"
+            "version": "[3.6.0.344457, )"
           }
         }
       }

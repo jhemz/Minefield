@@ -7672,7 +7672,7 @@
       ]
     },
     "Win2D.uwp/1.20.0": {
-      "sha512": "qrcwzM/uXVP6Q/NNNdUlttfjAKGNVMAZhPfevHpNClWQeQA9Ouk8cb4maA+4HAYxd54fOw988MpUuCwrPg4c2A==",
+      "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
       "type": "package",
       "path": "win2d.uwp/1.20.0",
       "files": [
@@ -7692,7 +7692,7 @@
       ]
     },
     "Xamarin.Essentials/1.0.1": {
-      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+      "sha512": "cGSje2LlYsCdscPt2zAG4e0Zzr08zc21Cj4DAMub3GR37lc/vzAVwGxco8NeCSzcZs147wYbXkFCXwOr4LUO9A==",
       "type": "package",
       "path": "xamarin.essentials/1.0.1",
       "files": [
@@ -7726,7 +7726,7 @@
       ]
     },
     "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+      "sha512": "PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
       "type": "package",
       "path": "xamarin.forms/3.6.0.264807",
       "files": [
@@ -7905,41 +7905,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\James\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\j.marshall\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.UWP\\Minefield.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.UWP\\Minefield.UWP.csproj",
       "projectName": "Minefield.UWP",
-      "projectPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.UWP\\Minefield.UWP.csproj",
-      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield.UWP\\obj\\",
+      "projectPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.UWP\\Minefield.UWP.csproj",
+      "packagesPath": "C:\\Users\\j.marshall\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\j.marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.16299"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj": {
-              "projectPath": "C:\\Users\\James\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj"
+            "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj": {
+              "projectPath": "C:\\Users\\j.marshall\\Documents\\Minefield\\Minefield\\Minefield\\Minefield.csproj"
             }
           }
         }
