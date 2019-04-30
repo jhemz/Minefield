@@ -1,0 +1,17 @@
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield_UnitTest.deps.json
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield_UnitTest.runtimeconfig.json
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield_UnitTest.runtimeconfig.dev.json
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield_UnitTest.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield_UnitTest.pdb
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.csprojAssemblyReference.cache
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.AssemblyInfoInputs.cache
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.AssemblyInfo.cs
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.pdb
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield.dll
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\bin\Debug\netcoreapp2.1\Minefield.pdb
+C:\Users\j.marshall\Documents\Minefield\Minefield_UnitTest\obj\Debug\netcoreapp2.1\Minefield_UnitTest.csproj.CopyComplete
